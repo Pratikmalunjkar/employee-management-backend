@@ -4,7 +4,7 @@ const { Sequelize } = require("sequelize");
 // Load environment variables from .env file
 require("dotenv").config();
 
-// Create a new Sequelize instance ( its database connection)
+// Create a new Sequelize instance ( https://github.com/Pratikmalunjkar/employee-management-backendits database connection)
 const sequelize = new Sequelize(
   process.env.DB_NAME,       // Database name
    process.env.DB_USER,      
